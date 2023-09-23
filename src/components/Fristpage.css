@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    /* height: ; */
+}
+.container{
+    width: 100%;
+    height: 95vh;
+    /* display: flex; */
+}
+
+.img img{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 90vh;
+width: 98%;
+margin-left: 1rem;
+/* height: 100vh; */
+position: absolute;
+}
+.klampage1 {
+    /* margin-bottom: 50rem; */
+    position: relative;
+    /* margin-bottom: 20rem; */
+    margin-left: 8rem;
+    top: 10rem;
+    color: aliceblue;
+}
+.klampage1 h1 {
+font-size: 2.5rem;
+font-weight: bold;
+}
+.klampage1 p {
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+}
+
+.btncontact{
+  
+    box-sizing: border-box;
+    border-style: solid;
+    border: none;
+    border-color: #ffffff;
+    background-color: #20c46c;
+    width: 10rem;
+    height: 3rem;
+    margin-right: 5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+:hover.btncontact{
+    background-color: #216c44;
+    transition: 1s;
+}
+:hover.btnabout{
+    background-color: #5a1e80;
+    transition: 1s;
+}
+.btnabout{
+  
+    box-sizing: border-box;
+    border-style: solid;
+    border: none;
+    border-color: #ffffff;
+    background-color: #842dba;
+    width: 10rem;
+    height: 3rem;
+    margin-right: 5rem;
+    color: #ffffff;
+    font-weight: bold;
+   /* right: ; */
+}
+/* .btnpage1{
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+} */
+
+.iconspage1{
+    height: 45vh;
+    width: 100%;
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* margin-bottom:5rem ; */
+}
+.iconcar {
+/* font-size: 3rem; */
+text-align: center;
+}
+.iconcar h1 {
+font-size: 3rem;
+/* text-align: center; */
+/* font-weight: bold; */
+}
+.iconcar h2 {
+/* font-size: 3rem; */
+/* text-align: center; */
+font-weight: bold;
+}
+.iconcar p {
+font-size: 1.1rem;
+/* text-align: center; */
+}
+:hover.iconcar h1 {
+    color: #842dba;
+    transition: 1s;
+}

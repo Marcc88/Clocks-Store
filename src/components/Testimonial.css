@@ -1,0 +1,70 @@
+body{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+/* .head h1{
+    
+    
+} */
+.lolo{
+    text-align: center;
+    
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.Testimonial {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* font-size: 100rem; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* margin-right: 40rem; */
+}
+
+.imgclient img{
+    box-sizing: border-box;
+    border: none;
+    border-style: solid;
+    border-color: rgb(16, 128, 91);
+    border-width: 0.5rem;
+    height: 30vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    /* margin-left: 30rem; */
+    left: 10rem;
+    position: relative;
+    z-index: 9999999999999999999;
+}
+
+.comments{
+    position: absolute;
+    left: 15rem;
+/* align-items: center; */
+box-sizing: border-box;
+border-style: solid;
+width: 70%;
+height: 40vh;
+border-color: rgb(226, 216, 216);
+text-align: center;
+/* align-items: center; */
+/* margin-right: 50rem; */
+text-align: center;
+}
+.comments p {
+margin-left: 3rem;
+/* font-weight: bold; */
+}
+.comments h3{
+    margin-right: 40rem;
+    color: blueviolet;
+}
+.comments h5{
+    color: rgb(97, 226, 215);
+    margin-right: 40rem;
+}
